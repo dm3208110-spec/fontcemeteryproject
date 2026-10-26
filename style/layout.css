@@ -25,12 +25,13 @@ body {
   top: 0;
   background-color: black;
   border-bottom: 1px solid #888;
+  z-index: 1;
 }
 
 .menubar-1,
 .menubar-2 {
   display: flex;
-  gap: 12px;
+  gap: 40px;
 }
 .menubar-1 a,
 .menubar-2 a {
@@ -188,7 +189,7 @@ body {
   position: absolute;
   width: 500px;
   text-align: left;
-  left: 210px;
+  left: 145px;
   top: 750px;
 }
 
@@ -197,7 +198,7 @@ body {
   position: absolute;
   width: 500px;
   text-align: center;
-  left: 370px;
+  left: 320px;
   top: 750px;
 }
 
@@ -206,7 +207,7 @@ body {
   position: absolute;
   width: 500px;
   text-align: right;
-  right: 290px;
+  right: 310px;
   top: 750px;
 }
 
@@ -334,4 +335,13 @@ body {
 
 .section-8 {
   margin-top: 70px;
+}
+
+.move {
+  transition: transform 0.6s ease-out;
+  display: inline-block;
+}
+
+.text-5-2:hover .move {
+  transform: rotate(360deg);
 }
