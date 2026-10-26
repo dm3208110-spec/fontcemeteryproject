@@ -1,0 +1,337 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* font-family: "PT Root UI"; */
+  background-color: black;
+  color: white;
+}
+.header-img {
+  width: 100%;
+}
+.years-of-work {
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  width: 100%;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  border-bottom: 1px solid #888;
+}
+
+.menubar-1,
+.menubar-2 {
+  display: flex;
+  gap: 12px;
+}
+.menubar-1 a,
+.menubar-2 a {
+  text-decoration: none;
+  color: #888;
+  transition: color ease 0.6s;
+}
+.menubar-1 a:hover,
+.menubar-2 a:hover {
+  color: white;
+}
+.search {
+  text-decoration: none;
+  color: #888;
+  transition: color ease 0.6s;
+}
+.search {
+  color: white;
+}
+
+.paragraph-2,
+.paragraph-3,
+.paragraph-4,
+.paragraph-5,
+.paragraph-6,
+.paragraph-7 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-1 {
+  position: relative;
+  display: flex;
+  height: 900px;
+  background-image: url("../images/1\ page\ final.png");
+  width: 100%;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-2 {
+  position: relative;
+  display: flex;
+  height: 1000px;
+  background-image: url("../images/2\ page\ project\ final.png");
+  width: 100%;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-3 {
+  position: relative;
+  display: flex;
+  height: 1000px;
+  background-image: url("../images/3\ page\ project\ final.png");
+  width: 100%;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-4 {
+  position: relative;
+  display: flex;
+  height: 2450px;
+  background-image: url("../images/4\ page\ final.png");
+  width: 100%;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-5 {
+  position: relative;
+  display: flex;
+  height: 700px;
+  background-image: url("../images/5\ page\ project.png");
+  width: 100%;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  left: -35px;
+}
+
+.paragraph-7 {
+  background-image: url("../images/6\ page\ final.png");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  height: 400px;
+  left: -150px;
+  margin-top: 0;
+}
+
+.text-1 {
+  position: absolute;
+  width: 400px;
+  text-align: center;
+  right: 320px;
+  top: 250px;
+  font-size: 20px;
+}
+
+.text-2 {
+  position: absolute;
+  width: 400px;
+  text-align: center;
+  right: 320px;
+  top: 400px;
+  font-size: 20px;
+}
+
+.text-3 {
+  position: absolute;
+  width: 400px;
+  text-align: center;
+  right: 320px;
+  top: 550px;
+  font-size: 20px;
+}
+
+.text-2-1 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 450px;
+  top: 470px;
+  font-size: 20px;
+}
+
+.text-2-2 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 450px;
+  top: 600px;
+  font-size: 20px;
+}
+
+.years-of-work {
+  font-size: 50px;
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 450px;
+  top: 50px;
+}
+
+.text-3-1 {
+  font-size: 30px;
+  position: absolute;
+  width: 500px;
+  text-align: left;
+  left: 210px;
+  top: 750px;
+}
+
+.text-3-2 {
+  font-size: 30px;
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  left: 370px;
+  top: 750px;
+}
+
+.text-3-3 {
+  font-size: 30px;
+  position: absolute;
+  width: 500px;
+  text-align: right;
+  right: 290px;
+  top: 750px;
+}
+
+.section-4 {
+  margin-left: 80px;
+}
+
+.paragraph-5 {
+  font-size: 50px;
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 455px;
+  top: 500px;
+  color: black;
+}
+
+.text-4-1 {
+  font-size: 20px;
+  position: absolute;
+  width: 500px;
+  text-align: left;
+  left: 390px;
+  top: 950px;
+}
+
+.text-4-2 {
+  font-size: 20px;
+  position: absolute;
+  width: 500px;
+  text-align: left;
+  left: 390px;
+  top: 1000px;
+}
+
+.text-4-3 {
+  font-size: 25px;
+  position: absolute;
+  width: 500px;
+  text-align: right;
+  right: 390px;
+  top: 1170px;
+}
+
+.text-4-4 {
+  font-size: 25px;
+  position: absolute;
+  width: 500px;
+  text-align: right;
+  right: 390px;
+  top: 1240px;
+}
+
+.text-4-5 {
+  font-size: 32px;
+  position: absolute;
+  width: 500px;
+  text-align: left;
+  left: 420px;
+  top: 1550px;
+}
+
+.text-4-6 {
+  font-size: 32px;
+  position: absolute;
+  width: 500px;
+  text-align: left;
+  left: 420px;
+  top: 1620px;
+}
+
+.text-4-7 {
+  font-size: 35px;
+  position: absolute;
+  width: 500px;
+  text-align: right;
+  right: 440px;
+  top: 2050px;
+}
+
+.text-4-8 {
+  font-size: 35px;
+  position: absolute;
+  width: 500px;
+  text-align: right;
+  right: 440px;
+  top: 2150px;
+}
+
+.text-5-1 {
+  font-size: 25px;
+  position: absolute;
+  width: 400px;
+  text-align: center;
+  right: 500px;
+  top: 200px;
+}
+
+.text-5-2 {
+  font-size: 30px;
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 370px;
+  top: 260px;
+  flex-direction: column;
+  display: flex;
+}
+
+.search {
+  font-size: 30px;
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 300px;
+  top: 174px;
+  flex-direction: column;
+  display: flex;
+}
+
+.text-6-1,
+.text-6-2 {
+  text-align: center;
+}
+
+.section-8 {
+  margin-top: 70px;
+}
