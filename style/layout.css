@@ -45,11 +45,8 @@ body {
 }
 .search {
   text-decoration: none;
-  color: #888;
-  transition: color ease 0.6s;
-}
-.search {
   color: white;
+  transition: color ease 0.6s;
 }
 
 .paragraph-2,
@@ -59,7 +56,7 @@ body {
 .paragraph-6,
 .paragraph-7 {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .main-1 {
@@ -110,7 +107,7 @@ body {
   position: relative;
   display: flex;
   height: 700px;
-  background-image: url("../images/5\ page\ project.png");
+  background-image: url("../images/5\ page\ final.png");
   width: 100%;
   background-size: cover;
   align-items: center;
@@ -118,8 +115,20 @@ body {
   left: -35px;
 }
 
+.main-6 {
+  position: relative;
+  display: flex;
+  height: 700px;
+  background-image: url("../images/last.png");
+  width: 100%;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  left: -20px;
+}
+
 .paragraph-7 {
-  background-image: url("../images/6\ page\ final.png");
+  background-image: url("../images/6\ page.png");
   background-size: cover;
   align-items: center;
   justify-content: center;
@@ -328,9 +337,76 @@ body {
   display: flex;
 }
 
-.text-6-1,
-.text-6-2 {
+.text-6-1 {
+  position: absolute;
+  width: 500px;
   text-align: center;
+  right: 450px;
+  top: 130px;
+  font-size: 25px;
+}
+
+.text-6-2 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 450px;
+  top: 190px;
+  font-size: 25px;
+}
+
+.text-6-3 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 450px;
+  top: 270px;
+  font-size: 25px;
+}
+
+.text-6-4 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 450px;
+  top: 350px;
+  font-size: 25px;
+}
+
+.text-6-5 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 450px;
+  top: 610px;
+  font-size: 20px;
+}
+
+.text-6-6 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 450px;
+  top: 640px;
+  font-size: 20px;
+}
+
+.text-6-7 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 450px;
+  top: 670px;
+  font-size: 20px;
+}
+
+.text-6-8 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  right: 450px;
+  top: 500px;
+  font-size: 20px;
 }
 
 .section-8 {
@@ -344,4 +420,17 @@ body {
 
 .text-5-2:hover .move {
   transform: rotate(360deg);
+}
+
+.line {
+  margin-top: 50px;
+}
+
+.text-6-1,
+.text-6-2,
+.text-6-3,
+.text-6-4 {
+  text-decoration: none;
+  color: white;
+  transition: color ease 0.6s;
 }
