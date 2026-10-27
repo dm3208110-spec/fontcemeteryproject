@@ -434,3 +434,10 @@ body {
   color: white;
   transition: color ease 0.6s;
 }
+
+.menu-logo {
+  position: absolute;
+  left: 50%;
+  height: 30px;
+  width: auto;
+}
