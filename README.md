@@ -6,7 +6,7 @@
 
 ## Ссылка на сайт
 
-[https://dm3208110-spec.github.io/fontcemeteryproject/]
+https://dm3208110-spec.github.io/fontcemeteryproject/
 
 ## Скриншот
 
