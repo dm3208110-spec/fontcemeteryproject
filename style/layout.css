@@ -5,7 +5,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* font-family: "PT Root UI"; */
   background-color: black;
   color: white;
 }
@@ -139,6 +138,7 @@ body {
   margin-top: 0;
 }
 
+/*ИИ: deepseek написал этот блок, я выставила значения отступов, сдвига вправо и положения текста (дальнейшие аналогичные блоки писала на подобии этого). Запись №3 в README */
 .text-1 {
   position: absolute;
   width: 400px;
